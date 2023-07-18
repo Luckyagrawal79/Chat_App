@@ -12,7 +12,9 @@ app.use(cors());
 app.use(express.json());
 mongoose.set("strictQuery", false);
 mongoose
-  .connect(process.env.MONGO_URL)
+  .connect(
+    "mongodb+srv://now:nowhere@atlascluster.vq4heuo.mongodb.net/?retryWrites=true&w=majority"
+  )
   .then(() => {
     console.log("DB Connetion Successfull");
   })
