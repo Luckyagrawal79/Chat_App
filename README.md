@@ -11,8 +11,6 @@ Snappy is chat application build with MERN Stack.
 
 Both should be installed and make sure mongodb is running.
 
-Now rename env files from .env.example to .env
-
 ```shell
 cd client
 cd ..
