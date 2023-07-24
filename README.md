@@ -24,7 +24,7 @@ Now install the dependencies
 cd server
 npm i
 cd ..
-cd public
+cd client
 npm i
 ```
 
@@ -33,7 +33,7 @@ Now just start the development server.
 For Frontend.
 
 ```shell
-cd public
+cd client
 npm start
 ```
 
